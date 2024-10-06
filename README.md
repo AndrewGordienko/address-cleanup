@@ -39,12 +39,12 @@ This project provides a tool to process addresses and retrieve latitude and long
    
      ```json
      {
-       "canadian_postal_codes_path": "path/to/canadian_postal_codes.csv",
-       "us_zip_codes_path": "path/to/us_zip_codes.csv",
-       "input_file": "path/to/input_addresses.txt",
-       "output_file": "path/to/output_results.txt",
-       "llama_model": "your_llama_model_name"
-     }
+        "canadian_postal_codes_path": "CanadianPostalCodes202403.csv",
+        "us_zip_codes_path": "USZIPCodes202409.csv",
+        "llama_model": "llama3.1",
+        "input_file": "messy.txt",
+        "output_file": "output.txt"
+      }
      ```
 
 ## Usage
@@ -65,15 +65,31 @@ This will:
 ### Example Address File (`input_addresses.txt`)
 
 ```
-123 Main St, Vancouver, BC
-456 Elm St, Seattle, WA
+789 Maple Dr., 2nd floor, Toronto, ON, M5V3L5
+456 Pine St New York, NY, USA
+12 Elm Street Vancouver BC V6B
+105 River Blvd, Montreal QC H3B2Y
+800 King Road, apt 3A, Chicago IL, buzzer 176
+300 Oak Street, Dallas, Texas 75201
+567 Park Ave, Suite #2, Calgary, AB T2P
+23 Cedar Way, San Francisco, CA
+890 Birch Ln, Ottawa, Ontario
+210 Spruce Ave. Los Angeles, CA, USA
 ```
 
 ### Example Output (`output_results.txt`)
 
 ```
-Vancouver / British Columbia / 49.2827 / -123.1207
-Seattle / Washington / 47.6062 / -122.3321
+Toronto / Ontario / 43.688438 / -79.307762
+New York / New York / 40.7508 / -73.996122
+Vancouver / British Columbia / 49.227382 / -123.128265
+Montreal / Quebec / 45.559978 / -73.608679
+Chicago / Illinois / 41.88502 / -87.622387
+Dallas / Texas / 32.787706 / -96.79985
+Calgary / Alberta / 51.039352 / -114.093224
+San Francisco / California / 37.779392 / -122.417738
+Ottawa / Ontario / 45.358469 / -75.644724
+Los Angeles / California / 33.973593 / -118.247897
 ```
 
 ## Handling Failed Lookups
@@ -86,17 +102,9 @@ The `config.json` file contains paths to necessary resources:
 
 - `canadian_postal_codes_path`: Path to the CSV file containing Canadian postal codes.
 - `us_zip_codes_path`: Path to the CSV file containing U.S. postal codes.
+- `llama_model`: Name of the model used by `OllamaLLM` for processing addresses.
 - `input_file`: Path to the file containing the list of addresses to process.
 - `output_file`: Path to the file where results will be saved.
-- `llama_model`: Name of the model used by `OllamaLLM` for processing addresses.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
 
 ## License
 
