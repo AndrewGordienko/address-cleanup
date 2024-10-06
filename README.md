@@ -1,7 +1,7 @@
 
-# Address Lat-Long Lookup
+# Address Cleanup
 
-This project provides a tool to process addresses and retrieve latitude and longitude based on city, state/province, and country information for both Canadian and U.S. addresses. It uses data from postal code CSV files and a language model (`OllamaLLM`) to parse address components.
+This project provides a tool to process addresses and retrieve latitude and longitude based on city, state/province, and country information for both Canadian and U.S. addresses while cleaning out message noise. It uses data from postal code CSV files and a language model (`OllamaLLM`) to parse address components.
 
 ## Features
 
