@@ -54,7 +54,7 @@ This project provides a tool to process addresses and retrieve latitude and long
 Once everything is set up, you can run the script to process the addresses and retrieve latitude and longitude information:
 
 ```bash
-python address_latlong_lookup.py
+python main.py
 ```
 
 This will:
