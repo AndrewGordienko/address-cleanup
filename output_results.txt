@@ -1,0 +1,10 @@
+Toronto / Ontario / 43.688438 / -79.307762
+New York / New York / 40.7508 / -73.996122
+Vancouver / British Columbia / 49.227382 / -123.128265
+Montreal / Quebec / 45.559978 / -73.608679
+Chicago / Illinois / 41.88502 / -87.622387
+Dallas / Texas / 32.787706 / -96.79985
+Calgary / Alberta / 51.039352 / -114.093224
+San Francisco / California / 37.779392 / -122.417738
+Ottawa / Ontario / 45.358469 / -75.644724
+Los Angeles / California / 33.973593 / -118.247897
