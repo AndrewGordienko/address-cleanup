@@ -18,8 +18,8 @@ This project provides a tool to process addresses and retrieve latitude and long
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/address-latlong-lookup.git
-   cd address-latlong-lookup
+   git clone https://github.com/AndrewGordienko/address-cleanup
+   cd address-cleanup
    ```
 
 2. **Install the required dependencies:**
