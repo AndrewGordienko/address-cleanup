@@ -1,6 +1,7 @@
-
-<img src="https://github.com/user-attachments/assets/33fda36c-8414-4e3a-a040-ac1658ba8928" alt="Image description" width="300"/>
-
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/33fda36c-8414-4e3a-a040-ac1658ba8928" alt="Image description" width="300"/>
+<\div>
+   
 # Address Cleanup
 
 This project provides a tool to process addresses and retrieve latitude and longitude based on city, state/province, and country information for both Canadian and U.S. addresses while cleaning out message noise. It uses data from postal code CSV files and a language model (`OllamaLLM`) to parse address components.
