@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: llama-cleanup
+Version: 1.7.1
+Summary: A package to process addresses and filter out noise
+Home-page: https://github.com/AndrewGordienko/address-cleanup
+Author: Andrew
+Author-email: gordienko.adg@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: langchain_ollama
+
+# My Package
+
+This package processes addresses and looks up latitude and longitude for cities in Canada and the U.S.
+
+## Installation
+
+

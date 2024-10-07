@@ -1,0 +1,9 @@
+pandas
+numpy
+langchain_ollama
+langchain_openai
+unidecode
+pyspellchecker
+thefuzz
+unicodedata
+pandas
