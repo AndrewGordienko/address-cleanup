@@ -1,2 +1,0 @@
-[console_scripts]
-llama_cleanup_process = llama_cleanup.main:process_addresses
