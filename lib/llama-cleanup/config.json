@@ -1,0 +1,7 @@
+{
+  "canadian_postal_codes_path": "CanadianPostalCodes202403.csv",
+  "us_zip_codes_path": "USZIPCodes202409.csv",
+  "llama_model": "llama3.1",
+  "input_file": "messy.txt",
+  "output_file": "output.txt"
+}

@@ -1,0 +1,10 @@
+README.md
+setup.py
+llama_cleanup/__init__.py
+llama_cleanup/main.py
+llama_cleanup.egg-info/PKG-INFO
+llama_cleanup.egg-info/SOURCES.txt
+llama_cleanup.egg-info/dependency_links.txt
+llama_cleanup.egg-info/entry_points.txt
+llama_cleanup.egg-info/requires.txt
+llama_cleanup.egg-info/top_level.txt
