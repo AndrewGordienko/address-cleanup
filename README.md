@@ -1,6 +1,4 @@
-<div align="center">
-   <img src="https://github.com/user-attachments/assets/33fda36c-8414-4e3a-a040-ac1658ba8928" alt="Image description" width="300"/>
-<\div>
+<img src="https://github.com/user-attachments/assets/33fda36c-8414-4e3a-a040-ac1658ba8928" alt="Image description" width="300"/>
    
 # Address Cleanup
 
