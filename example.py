@@ -23,7 +23,7 @@ address_lookup = AddressLookup(
     us_zip_codes_path="/path/to/USZIPCodes202409.csv",
     llama_model="gemma:2b",  # The model on the remote server
     remote=True,  # Enable remote
-    remote_api_base="http://192.168.0.15:11434/v1",  # Remote API base URL
+    remote_api_base="",  # Remote API base URL
     remote_api_key="your_api_key_here"  # Optional API key for authentication
 )
 
